@@ -54,8 +54,6 @@ namespace ContactsDataAccessLayer
             return isFound;
         }
 
-
-
         public static int AddNewContact(string FirstName, string LastName, string Email, string Phone, string Address, DateTime DateOfBirth, int CountryID,string ImagePath)
         {
             int ContactID = -1;
@@ -215,7 +213,40 @@ namespace ContactsDataAccessLayer
             return dt;
         }
 
+        public static bool isContactExist(int ContactID)
+        {
+            bool isFound = false;
+            SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
 
+            string Query = @"SELECT FOUND = 1 FROM Contacts WHERE ContactID = @ContactID;";
 
+            SqlCommand command = new SqlCommand(Query, connection);
+
+            command.Parameters.AddWithValue("@ContactID", ContactID);
+
+            try
+            {
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                isFound = reader.HasRows;
+            }
+            catch (Exception ex)
+            {
+                isFound = false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            return isFound;
+        }
     }
+
+
+
+
+
+
 }

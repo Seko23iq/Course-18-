@@ -77,15 +77,14 @@ namespace ContactsConsolApp
         {
             bool result = clsContact.DeleteContact(ID);
 
-            if (result)
-            {
-                Console.WriteLine("Contact Deleted Successfully");
-            }
+            if (clsContact.isContactExist(ID))
+                if (result)
+                    Console.WriteLine("Contact Deleted Successfully");
+                else
+                    Console.WriteLine("Error deleting contact");
             else
-            {
-                Console.WriteLine("Error deleting contact");
-            }
-
+                Console.WriteLine("Contact Not Found!");
+          
         }
 
         static void testGetAllContacts()
@@ -97,14 +96,26 @@ namespace ContactsConsolApp
             }
         }
 
+        static void testFindContactFast(int ContactID)
+        {
+            if(clsContact.isContactExist(ContactID))
+                Console.WriteLine("Contact Found!");
+            else
+                Console.WriteLine("Contact Not Found!");
+        }
+
+
         static void Main(string[] args)
         {
             //testFindContact(5);
             //testAddContact();
             //testUpdateContact(1);
             //testDeleteContact(32);
-            testGetAllContacts();
-            
+            //testGetAllContacts();
+
+            testFindContactFast(1);
+            testFindContactFast(100);
+
             Console.ReadKey();
 
         }
