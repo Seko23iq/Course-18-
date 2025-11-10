@@ -73,7 +73,6 @@ namespace ContactsConsolApp
             }
         }
 
-
         static void testDeleteContact(int ID)
         {
             bool result = clsContact.DeleteContact(ID);
@@ -89,13 +88,23 @@ namespace ContactsConsolApp
 
         }
 
+        static void testGetAllContacts()
+        {
+            DataTable Contacts = clsContact.GetAllContacts();
+            foreach(DataRow row in Contacts.Rows)
+            {
+                Console.WriteLine(row["ContactID"].ToString() + " - " + row["FirstName"].ToString() + " " + row["LastName"].ToString());
+            }
+        }
+
         static void Main(string[] args)
         {
             //testFindContact(5);
             //testAddContact();
             //testUpdateContact(1);
-            testDeleteContact(32);
-
+            //testDeleteContact(32);
+            testGetAllContacts();
+            
             Console.ReadKey();
 
         }

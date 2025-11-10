@@ -7,10 +7,10 @@
       "RelativeMoniker": "D:0:0:{26650F21-BFCE-4FAB-8FD6-62161224F359}|ContactsConsolApp-PresentationLayer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCCC4184-857C-4F65-88B3-8E1CCEA8B9E7}|..\\ContactsDataAccessLayer\\ContactsDataAccessLayer.csproj|C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\contactsdataaccesslayer\\contactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E533F207-E07A-4D21-90BD-95A635E42CCC}|..\\ContactBusinessLayer\\ContactsBusinessLayer.csproj|C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\contactbusinesslayer\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E533F207-E07A-4D21-90BD-95A635E42CCC}|..\\ContactBusinessLayer\\ContactsBusinessLayer.csproj|C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\contactbusinesslayer\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCCC4184-857C-4F65-88B3-8E1CCEA8B9E7}|..\\ContactsDataAccessLayer\\ContactsDataAccessLayer.csproj|C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\contactsdataaccesslayer\\contactdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,26 +28,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ContactData.cs",
               "DocumentMoniker": "C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\ContactsDataAccessLayer\\ContactData.cs",
               "RelativeDocumentMoniker": "..\\ContactsDataAccessLayer\\ContactData.cs",
               "ToolTip": "C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\ContactsDataAccessLayer\\ContactData.cs",
               "RelativeToolTip": "..\\ContactsDataAccessLayer\\ContactData.cs",
-              "ViewState": "AgIAAGsAAAAAcJmZmZnJv54AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAkJmZmZnJv7kAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T08:28:02.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\ContactBusinessLayer\\Contact.cs",
               "RelativeDocumentMoniker": "..\\ContactBusinessLayer\\Contact.cs",
               "ToolTip": "C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\ContactBusinessLayer\\Contact.cs",
               "RelativeToolTip": "..\\ContactBusinessLayer\\Contact.cs",
-              "ViewState": "AgIAADYAAADgyszMzMwuwFQAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAADgyszMzMwuwFkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T08:28:03.368Z",
               "EditorCaption": ""
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\J.T.Z\\Desktop\\ContactsSolution\\ContactsConsolApp\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAEsAAAAAMzMzMzMLwGAAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAMzMzMzMLwGoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T08:28:04.262Z",
               "EditorCaption": ""
